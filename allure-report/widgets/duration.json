@@ -1,0 +1,31 @@
+[ {
+  "uid" : "62cb0837cbdc2caf",
+  "name" : "JSON response schema should be valid",
+  "time" : {
+    "start" : 1666050888642,
+    "stop" : 1666050889756,
+    "duration" : 1114
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8293dd3e143446c",
+  "name" : "Response status should be 200 for successful get request on Festivals API",
+  "time" : {
+    "start" : 1666050889831,
+    "stop" : 1666050890447,
+    "duration" : 616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bece8f1836fac87",
+  "name" : "Response should have at least 1 Festival in the API get request",
+  "time" : {
+    "start" : 1666050890453,
+    "stop" : 1666050890976,
+    "duration" : 523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

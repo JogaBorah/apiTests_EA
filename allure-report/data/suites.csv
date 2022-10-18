@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Oct 18 10:54:48 AEDT 2022","Tue Oct 18 10:54:49 AEDT 2022","1114","","[API] Test for the Festivals API","","","","JSON response schema should be valid",""
+"passed","Tue Oct 18 10:54:49 AEDT 2022","Tue Oct 18 10:54:50 AEDT 2022","616","","[API] Test for the Festivals API","","","","Response status should be 200 for successful get request on Festivals API",""
+"passed","Tue Oct 18 10:54:50 AEDT 2022","Tue Oct 18 10:54:50 AEDT 2022","523","","[API] Test for the Festivals API","","","","Response should have at least 1 Festival in the API get request",""

@@ -1,0 +1,30 @@
+{
+  "name": "apitests",
+  "version": "1.0.0",
+  "description": "Tests For Energy Aus By Jogananda",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress run --env allure=true",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:clear": "copy -R allure-report/history allure-results ; if exist allure-report rmdir /q /s allure-report && if exist cypress\\screenshots rmdir /q /s cypress\\screenshots && if exist cypress\\videos rmdir /q /s cypress\\videos",
+    "beforetest": "npm run allure:clear",
+    "test": "npm run cy:open || npm run allure:report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JogaBorah/eaApiTests.git"
+  },
+  "author": "Jogananda Borah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JogaBorah/eaApiTests/issues"
+  },
+  "homepage": "https://github.com/JogaBorah/eaApiTests#readme",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^1.6.2",
+    "@shelex/cypress-allure-plugin": "^2.26.4",
+    "ajv": "^8.10.0",
+    "allure-commandline": "^2.17.2",
+    "cypress": "^9.7.0"
+  }
+}

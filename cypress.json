@@ -1,0 +1,8 @@
+{
+    "supportFile": "cypress/support/index.js",
+    "baseUrl": "https://eacp.energyaustralia.com.au/codingtest/",
+    "env":{
+        "getFestivalsEndPoint": "api/v1/festivals"
+    }
+
+}

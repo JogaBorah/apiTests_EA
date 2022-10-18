@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected false to be true",
+      "children" : [ {
+        "name" : "JSON response schema should be valid",
+        "uid" : "62cb0837cbdc2caf",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666050888642,
+          "stop" : 1666050889756,
+          "duration" : 1114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81d949b8b4ac1baf44f7f368cbfa0d33"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
